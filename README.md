@@ -1,5 +1,5 @@
 Welcome to ANews: Your 24/7 Source for Topical News
-ANews Logo
+
 
 ANews is a dynamic news website that keeps you connected to the latest happenings around the clock. No matter when you want to stay informed, ANews is here to provide you with up-to-date news on the hottest topics.
 
