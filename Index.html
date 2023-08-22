@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A New App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assest/unnamed-removebg-preview.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+     
+    <nav>
+      <div class="main-nav container flex">
+        <a href="Index.html" class="company-logo">
+            <img src="assest/unnamed-removebg-preview.png" alt="company logo" srcset="">
+        </a>
+        <div class="nav-links">
+            <ul class="flex">
+                <li><a class="hover-link nav-item" href="index.html"><strong>Home</strong></a></li>
+                <li class="hover-link nav-item" id="Chandrayaan-3" onclick="onNavItemClick('Chandrayaan-3')">Chandrayaan-3</li>
+                <li class="hover-link nav-item"id="Sport" onclick="onNavItemClick('Sport')">Sport</li>
+                <li class="hover-link nav-item" id="Business" onclick="onNavItemClick('Business')">Business</li>
+                <li class="hover-link nav-item"id="Politics" onclick="onNavItemClick('Politics')">Politics</li>
+                <li class="hover-link nav-item"id="Technology" onclick="onNavItemClick('Technology')">Technology</li>
+            </ul>
+        </div>
+        <div class="search-bar flex">
+            <input id="search-text" type="text" class="news-input" placeholder="e.g.Science">
+            <button class="search-button" id="search-button">Search</button>
+        </div>
+      </div>
+    </nav>
+    
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+        </div>
+
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="http://via.placeholder.com/400x400" alt="img" id="news-img">
+
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 28/09/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum eos, vel ex accusamus quod voluptatibus.</p>
+
+            </div>
+        </div>
+    </template>
+    <footer class="text-center text-white" style="background-color:#d4ecff;">
+        <div class="container p-4">
+          <section class="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XNhDHIjneOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+        </div>
+      
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="#">A News.com</a>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
